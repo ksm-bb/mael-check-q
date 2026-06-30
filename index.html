@@ -110,7 +110,7 @@
                 className="text-xl font-black italic tracking-tighter flex"
                 style={{ fontFamily: 'Prompt, sans-serif' }}
               >
-                {["เ", "ช็", "ค", "ง", "า", "น", "ร้", "า","น","ม","า","เ","อ","ล"].map((char, index) => (
+                {["A", "u", "r", "a", " ", "c", "o", "i", "n"].map((char, index) => (
                   <span
                     key={index}
                     className={`bg-gradient-to-br from-[#f9bcce] to-[#fbd3de] bg-clip-text text-transparent drop-shadow-sm inline-block animate-text-wave pb-2 pr-[1.5px]`}
@@ -398,7 +398,7 @@
       };
 
       useEffect(() => {
-        document.title = "CHECK Q MAEL"; 
+        document.title = "Aura coin"; 
         
         fetch(WEB_APP_URL + "?action=getInitialData", { redirect: "follow" })
           .then(res => res.json())
